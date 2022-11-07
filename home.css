@@ -1,0 +1,53 @@
+html,body{
+    font-family: cursive;
+    
+}
+.navbar{
+    background-color: rgb(245, 242, 240);
+    color: black;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.navbar .nav-item{
+    color: rgb(16, 15, 15);
+}
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: rgb(4, 4, 4);
+    box-shadow: none;
+    color: rgb(9, 9, 9);
+}
+#carouselExampleDark{
+    background-image: linear-gradient(to bottom right, rgb(62, 37, 37), rgb(192, 115, 77));
+}
+
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.carousel-inner{
+max-height: 50%;
+padding: 2%;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active img{
+object-fit: fill;
+object-position: center;
+height: 80vh;
+overflow: hidden;
+}
+
+.container{
+
+color: white;
+padding: 5%;
+}
+@media (min-width: 768px){
+.container, .container-md, .container-sm{
+max-width: 100%;
+}
+}
+
+

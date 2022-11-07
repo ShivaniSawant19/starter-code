@@ -1,0 +1,68 @@
+
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-image: url("images/backg.jpeg");
+  }  
+  .container {  
+      padding: 50px;  
+      border-radius: 40%;
+      /* width: 50%; */
+      background-image: linear-gradient(rgb(219, 130, 130), rgb(175, 36, 122)); 
+     }  
+
+      .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 30% !important;
+      }
+    
+  input[type=text],[type=time],[type=date],[type=number],[type=datetime-local], textarea {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #f1f1f1;  
+  }  
+  input[type=text]:focus {  
+    background-color: orange;  
+    outline: none;  
+  }  
+   div {  
+      padding: 10px 0;  
+      width: 70%;
+       }  
+  
+  
+
+
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .parent button {
+    background-image: linear-gradient(rgb(67, 102, 68), rgb(32, 48, 22));  
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+    height: 50px;
+    width: 90px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .parent button:active {
+    background-image: linear-gradient(rgb(23, 21, 21), rgb(40, 101, 12));  
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+  
+  .parent button:not(:first-child) {
+    margin-top: 10px;
+  }
+  
+  .round-1 {
+    border-radius: 35%;
+  }
